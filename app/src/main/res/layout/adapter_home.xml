@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="16dp"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/tv_nama_anak_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="20dp"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:id="@+id/tv_nama_sekolah_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:fontFamily="@font/poppins"
+                android:drawableStart="@drawable/ic_baseline_location_on_24"/>
+
+            <Switch
+                android:id="@+id/switch_siap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siap dijemput?"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:fontFamily="@font/poppins_bold"/>
+
+            <TextView
+                android:id="@+id/tv_status_is_jemput_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dijemput..."
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins"/>
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

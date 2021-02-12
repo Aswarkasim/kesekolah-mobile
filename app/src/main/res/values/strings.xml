@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Kesekolah</string>
+    <string name="ke_sekolah">Ke sekolah</string>
+    <string name="sudah_punya_akun">Sudah Punya Akun?</string>
+    <string name="login">Login</string>
+    <string name="ayo_buat_akunmu">Ayo buat akunmu!</string>
+    <string name="selanjutnya">Selanjutnya</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="konfirmasi_password">Konfirmasi Password</string>
+    <string name="silakan_login">Silakan Login</string>
+    <string name="register">Register</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="silakan_register">Silakan Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="siap">Siap</string>
+    <string name="telat">Telat</string>
+    <string name="absen">Absen</string>
+    <string name="anak">Anak</string>
+    <string name="sekolah">Sekolah</string>
+    <string name="edit_profil">Edit Profil</string>
+    <string name="ubah_foto_profil">Ubah Foto Profil</string>
+    <string name="nama_pengguna">Nama Pengguna</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="alamat">Alamat</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
+    <string name="email">Email</string>
+    <string name="waktu_berangkat_sekolah">Waktu Berangkat Sekolah</string>
+    <string name="waktu_pulang_sekolah">Waktu Pulang Sekolah</string>
+    <string name="tambah">Tambah</string>
+    <string name="nama_pemilik_rekening">Nama Pemilik Rekening</string>
+    <string name="jumlah_transfer">Jumlah Transfer</string>
+    <string name="silakan_lakukan_pembayaran">silakan lakukan pembayaran di rekenig berikut, kemudian lakukan konfirmasi pembayaran. \n \nBRI : 7070 221 512122 \nA.N : Amanah Transport \n\nBNI : 554 3222 66 44 \nA.N : Amanah Transport</string>
+    <string name="informasi">Informasi</string>
+</resources>
